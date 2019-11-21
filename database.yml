@@ -1,0 +1,2 @@
+development:
+  url: {{envOr "DB_URL" "postgres://postgres:postgres@localhost:5432?sslmode=disable"}}

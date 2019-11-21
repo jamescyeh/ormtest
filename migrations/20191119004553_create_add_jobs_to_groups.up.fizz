@@ -1,0 +1,2 @@
+add_column("jobs", "group_id", "uuid", {})
+add_foreign_key("jobs", "group_id", {"groups": ["id"]}, {})

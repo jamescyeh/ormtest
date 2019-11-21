@@ -1,0 +1,2 @@
+drop_foreign_key("jobs", "group_id", {})
+drop column("jobs", "group_id")
